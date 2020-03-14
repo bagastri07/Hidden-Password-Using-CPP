@@ -35,7 +35,7 @@ void insertPasword(string &password) {
     password = pass;
 }
 
-void loginAdmin(admin adm) {
+void loginAdmin(const admin& adm) {
     string usrnm, pswrd;
     cout << "Username : ";
     cin >> usrnm;
